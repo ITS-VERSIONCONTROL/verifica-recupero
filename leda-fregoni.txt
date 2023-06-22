@@ -1,0 +1,28 @@
+1. Cosa è GIT?
+GIT è un software che facilita e aiuta il lavoro sia in team che personale. 
+Serve a gestire e a salvare al meglio il lavoro di qualsiasi sviluppatore e non solo.
+
+2. Da cosa è composto un repository git (locale)?
+un repository GIT locale è composto da:
+-una cartella princiaple
+-una sotto cartella nascosta ".git"
+-un file ".gitignore"
+-un file "README.md"
+
+3. Descrivi il funzionamento della 'staging area'
+La staging area è il luogo dove vengono "spostati" i file prima di essere committati.
+Una volta apportate delle modifiche a un file è necessario spostarlo nella staging 
+area prima di effettuare una commit, altrimenti non potremo effettuare la commit di quel file.
+La staging area consente di avere un maggiore controllo e precisione sulle modifiche che vengono 
+salvate nel repository e anche di suddividere al meglio i file nelle varie commit.
+
+4. Il grafo della history: da cosa è composto
+il grafo della history si può considerare come la cronologia di un 
+repository git ed è composto da tutte le "azioni" che abbiamo effettuato sul repository:
+Le commit effettuate, da chi sono state effettuate, quando sono state effettuate , 
+i diversi branch creati, i merge effettuati e tutti i relativi commenti 
+
+5. Come funziona la history? Come fa git a mantenere la storia del progetto?
+la History di git è una struttura ad albero che si aggiorna ad ogni commit effuata 
+ogni volta si effettua una modifica git salva una nuova versione del file e mantiene in memoria 
+tutte le precedenti così da poter monitorare sempre il lavoro.
